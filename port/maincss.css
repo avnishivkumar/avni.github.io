@@ -10,6 +10,32 @@
    list-style-type: none;
   text-decoration: none;
 }
+
+.name{
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-color: none;
+  font-family: poynter-oldstyle-display, serif;
+
+  font-weight: 700;
+
+  font-style: normal;
+  font-size: 24px;
+    position: fixed;
+    left: 0%;
+    top: -16px;
+    width: 100%;
+    height: 50px;
+    line-height: 2px;
+    background-color: none;
+    color: #4BAF6F;
+    text-align: left;
+    z-index: 100;
+    margin-top: 30px;
+    text-decoration-style: none;
+    text-decoration: none;
+
+}
 .header {
   border: 0px solid #0000FF;;
   font-weight: 300;
