@@ -11,6 +11,70 @@
   text-decoration: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  z-index: 100;
+
+  font-family: titling-gothic-fb-extended, sans-serif;
+
+  font-size: 12px;
+
+font-weight: 700;
+
+font-style: normal;
+
+color: black;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#ye1 {
+  z-index: 100;
+
+  font-family: titling-gothic-fb-extended, sans-serif;
+
+  font-size: 18.5px;
+
+  text-decoration: none;
+
+font-weight: 700;
+
+font-style: normal;
+
+color: black;
+
+}
+#ye1:hover {
+  border-bottom: 4px solid black;
+}
+
+header {
+    z-index: 100;
+  position: fixed;
+  background-color: white;
+  color: none;
+  padding: 1.2rem;
+  border-style: solid;
+ border-width: 3px;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+
+
 .name{
   list-style-type: none;
   text-decoration: none;
@@ -287,11 +351,31 @@ a:hover {
 
 }
 #web{
-color: #4BAF6F;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  font-size: 30px;
+  position: fixed;
+  top: 100px;
+
+    color: black;
+
+  margin-left: 750px;
+  margin-right: 150px;
+  line-height: 40px;
+  margin-top: 100px;
 
 }
+
+#bio
+{
+  left: -720px;
+  margin-right: 500px;
+}
 #web:hover {
-color: #1E503E;
+text-decoration: underline;
 }
 
 
@@ -526,16 +610,17 @@ h1 {
 }
 
 h90 {
-  font-family: poynter-oldstyle-display, serif;
 
-  font-weight: 700;
+  font-family: titling-gothic-fb-compressed, sans-serif;
+
+  font-weight: 400;
 
   font-style: normal;
   font-size: 30px;
   position: fixed;
   top: 100px;
 
-    color: #378F6F;
+    color: black;
 
   margin-left: 750px;
   margin-right: 150px;
@@ -543,18 +628,23 @@ h90 {
   margin-top: 100px;
 
 }
+#gods1 {
+
+background-color: white;
+}
 
 h91 {
-  font-family: poynter-oldstyle-display, serif;
+  font-family: titling-gothic-fb-compressed, sans-serif;
 
-  font-weight: 700;
+  font-weight: 400;
 
   font-style: normal;
   font-size: 30px;
+
   position: absolute;
   top: 100px;
 
-    color: #378F6F;
+    color: black;
 
   margin-left: 750px;
   margin-right: 150px;
@@ -773,15 +863,15 @@ h12 {
 }
 #ab1 {
   position: absolute;
-  font-family: poynter-oldstyle-display, serif;
+  font-family: titling-gothic-fb-compressed, sans-serif;
 
-  font-weight: 800;
+  font-weight: 400;
 
   font-style: normal;
   font-size: 60px;
-  color: #4BAF6F;
+  color: black;
   margin-top: 200px;
-  margin-left: 200px;
+  margin-left: 10px;
   margin-right: 200px;
   line-height: 60px;
 
@@ -841,8 +931,8 @@ h12 {
   width: 1500px;
 }
 #long {
-  height: 600px;
-  width: 400px;
+  height: 630px;
+  width: 380px;
   line-height: 900px;
   margin-right: 1200px;
   margin-left: 50px;
@@ -903,8 +993,8 @@ h12 {
 }
 
 #playlist {
-  height: 1000px;
-  width: 650px;
+  height: 800px;
+  width: 550px;
   line-height: 900px;
   margin-right: 1200px;
   margin-left: 50px;
@@ -979,4 +1069,21 @@ h12 {
   width: 800px;
   position: absolute;
   left: 26%;
+}
+
+
+@media (max-width: 700px){
+
+  .v1{
+    height: 300px;
+    width: 400px;
+  }
+
+  .v2{
+    height: 600px;
+    width: 300px;
+    top: 550px;
+    left: 100px;
+  }
+
 }
