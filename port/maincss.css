@@ -999,7 +999,7 @@ h12 {
 
 #playlist {
   height: 800px;
-  width: 550px;
+  width: 700px;
   line-height: 900px;
   margin-right: 1200px;
   margin-left: 100px;
@@ -1077,7 +1077,7 @@ h12 {
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 812px){
 
   .v1{
     height: 300px;
@@ -1090,5 +1090,97 @@ h12 {
     top: 550px;
     left: 100px;
   }
+
+  header{
+    width: 100%;
+    margin-left: 0px;
+  }
+  #ye1 {
+    font-size: 20px;
+
+  }
+
+
+    .v4{
+      height: 800px;
+      width: 500px;
+      top: 130px;
+      left: 100px;
+    }
+    .v3{
+      height: 400px;
+      width: 600px;
+      top: 1030px;
+      left: 100px;
+    }
+    .v6{
+      height: 400px;
+      width: 600px;
+      top: 1500px;
+      left: 100px;
+    }
+
+    .v12{
+      height: 400px;
+      width: 600px;
+      top: 2000px;
+      left: 100px;
+    }
+
+    .v8{
+      height: 400px;
+      width: 600px;
+      top: 2500px;
+      left: 100px;
+    }
+
+    .v7{
+      height: 400px;
+      width: 600px;
+      top: 3000px;
+      left: 100px;
+    }
+    .v5{
+      height: 400px;
+      width: 600px;
+      top: 3500px;
+      left: 100px;
+    }
+
+    .v2{
+      height: 800px;
+      width: 500px;
+      top: 4000px;
+      left: 100px;
+    }
+    .v1{
+      height: 400px;
+      width: 600px;
+      top: 4900px;
+      left: 100px;
+    }
+
+    .v9{
+      height: 400px;
+      width: 600px;
+      top: 5400px;
+      left: 100px;
+    }
+
+
+
+    .v11{
+      height: 400px;
+      width: 600px;
+      top: 5900px;
+      left: 100px;
+    }
+
+        .v10{
+          height: 800px;
+          width: 500px;
+          top: 6400px;
+          left: 100px;
+        }
 
 }
