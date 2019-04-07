@@ -1077,7 +1077,11 @@ h12 {
 }
 
 
-@media (max-width: 812px){
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2){
+
 
   .v1{
     height: 300px;
@@ -1181,6 +1185,19 @@ h12 {
           width: 500px;
           top: 6400px;
           left: 100px;
+        }
+
+        #bio {
+          font-size: 65px;
+          margin-right:20px;
+          margin-left: 780px;
+          line-height: 83px;
+        }
+        #ab1 {
+          font-size: 65px;
+          margin-right:20px;
+          margin-left: 50px;
+          line-height: 83px;
         }
 
 }
