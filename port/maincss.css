@@ -1078,10 +1078,10 @@ h12 {
 
 
 @media only screen
-    and (device-width : 414px)
-    and (device-height : 896px)
-    and (-webkit-device-pixel-ratio : 2){
-
+    and (min-device-width: 414px)
+    and (min-device-height: 896px)
+    and (-webkit-device-pixel-ratio: 2)
+    and (orientation: portrait) {
 
   .v1{
     height: 300px;
