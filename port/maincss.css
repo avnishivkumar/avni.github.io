@@ -666,6 +666,14 @@ h91 {
 
 }
 
+.v13 {
+  height: 800px;
+  width: 500px;
+  top: 1500px;
+  left: 400px;
+  -webkit-filter: invert(1) saturate(4.7);
+}
+
 .v1:before {
   content: "";
   display: block;
@@ -701,6 +709,7 @@ height: auto;
   height: 200px;
   width: 400px;
   position: absolute;
+  margin-right: 200px;
 }
 .v4{
   left: 100px;
@@ -724,6 +733,7 @@ height: auto;
   top: 600px;
   height: 200px;
   width: 400px;
+    margin-right: 200px;
   position: absolute;
 }
 
@@ -751,11 +761,20 @@ height: auto;
   position: absolute;
 }
 .v12{
-  left: 50px;
+  left: 700px;
   top: 1500px;
   height: 240px;
   width: 380px;
   position: absolute;
+}
+
+.v13 {
+  height: 500px;
+  width: 400px;
+  top: 1500px;
+  left: 300px;
+    position: absolute;
+    margin-bottom: 100px;
 }
 
 
@@ -788,6 +807,10 @@ height: auto;
 }
 .v3:hover{
   -webkit-filter: brightness(2.9) contrast(2.6) invert(1) saturate(3.4);
+}
+
+.v13:hover{
+-webkit-filter: invert(0) saturate(1) contrast(2.6);
 }
 .v5:hover{
 -webkit-filter: contrast(5.1) invert(1) saturate(6.3);
@@ -1004,6 +1027,7 @@ h12 {
   margin-right: 1200px;
   margin-left: 100px;
   margin-top: 100px;
+  -webkit-filter: invert(1) saturate(4.7);
 }
 
 #vidbig {
@@ -1187,12 +1211,7 @@ h12 {
           left: 100px;
         }
 
-        .v13{
-          height: 800px;
-          width: 500px;
-          top: 1500px;
-          left: 400px;
-        }
+
 
         #bio {
           font-size: 65px;
