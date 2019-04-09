@@ -1187,6 +1187,13 @@ h12 {
           left: 100px;
         }
 
+        .v13{
+          height: 800px;
+          width: 500px;
+          top: 1500px;
+          left: 400px;
+        }
+
         #bio {
           font-size: 65px;
           margin-right:20px;
