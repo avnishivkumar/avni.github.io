@@ -17,22 +17,18 @@
   padding: 0;
 }
 
-html {
-  z-index: 100;
 
-  font-family: titling-gothic-fb-extended, sans-serif;
 
-  font-size: 12px;
+html{ height:100%; }
+body{   font-size: 1.6rem; min-height:100%; padding:0; margin:0; position:relative; }
 
-font-weight: 700;
+body::after{ content:''; display:block; height:100px; }
 
-font-style: normal;
-
-color: black;
-}
-
-body {
-  font-size: 1.6rem;
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:100px;
 }
 
 #ye1 {
@@ -343,63 +339,13 @@ br {
    }
 
 
-.footer {
-  border: 2px solid #0000FF;;
-  font-weight: 300;
-  font-family: "europa",sans-serif;
-  font-size: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    color: gold;
-    text-decoration: none;
-    text-decoration: none;
-    color: none;
-    text-align: center;
-    z-index: 100;
-    margin-top: 50px;
-    text-decoration-color: none;
 
 
-}
-.foottext {
-  text-decoration-color: none;
+.foottext{
+  margin-top: 10px;
+  position: absolute;
+  left: 0%;
 
-  font-weight: 300;
-  font-family: "europa",sans-serif;
-  font-size: 26px;
-    position: fixed;
-    left: 45%;
-    bottom: -16px;
-    width: 100%;
-    height: 50px;
-    background-color: none;
-    color: #0000FF;
-    text-align: center;
-    z-index: 100;
-    margin-top: 30px;
-    text-decoration-style: none;
-    text-decoration: none;
-
-
-}
-#foot{
-  text-decoration-color: none;
-  text-decoration-style: none;
-
-    text-align: right;
-    margin-right: 30px;
-    text-decoration: none;
-}
-
-#foottheme{
-  text-decoration-color: none;
-  text-decoration: none;
-    text-align: right;
-    margin-right: 30px;
-    margin-top: 0px;
 }
 .a6{
   color: #4BAF6F;
