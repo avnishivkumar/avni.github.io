@@ -492,6 +492,7 @@ a:hover {
 
 #logodiv {
   max-width:1100px;
+
   min-width: 900px;
   position: absolute;
   top: 70%;
