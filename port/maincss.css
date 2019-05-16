@@ -958,6 +958,27 @@ font-weight: 700;
   box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
 
 }
+.v15{
+  left: 55%;
+  top: 400%;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+
+}
+
+.v16{
+  left: 20%;
+  top: 400%;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+
+}
 
 .v13 {
   left: 55%;
@@ -1129,6 +1150,15 @@ height: auto;
 -webkit-filter: contrast(5.1) invert(1) saturate(6.3);
 }
 .v6:hover{
+  -webkit-filter: brightness(2.9) contrast(2.6) invert(1) saturate(3.4);
+}
+.v14:hover{
+  -webkit-filter: brightness(2.9) contrast(2.6) invert(1) saturate(3.4);
+}
+.v15:hover{
+  -webkit-filter: invert(1) saturate(3.4);
+}
+.v16:hover{
   -webkit-filter: brightness(2.9) contrast(2.6) invert(1) saturate(3.4);
 }
 .v7:hover{
@@ -1312,6 +1342,15 @@ left: 24%;
   margin-left: 100px;
   margin-top: 100px;
 }
+
+#longish2 {
+  height: 570px;
+  width: 420px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
 #vidlong{
   position: relative;
   left: 27%;
@@ -1332,9 +1371,28 @@ left: 24%;
   margin-top: 100px;
 }
 
+#digi17 {
+  height: 440px;
+  width: 600px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
 #digi3 {
   height: 480px;
   width: 440px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+#digi6 {
+  height: 480px;
+  width: 380px;
   line-height: 900px;
   margin-right: 1200px;
   margin-left: 100px;
