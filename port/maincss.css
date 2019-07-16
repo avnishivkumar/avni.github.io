@@ -484,7 +484,7 @@ a:hover {
     position: absolute;
     top: 70%;
     left: 60%;
-    
+
   }
   .fa-envelope {
     position: absolute;
@@ -933,6 +933,28 @@ font-weight: 700;
   margin-left: 780px;
   margin-right: 150px;
   line-height: 40px;
+  margin-top: 100px;
+
+}
+h89 {
+  min-width: 250px;
+  max-width: 400px;
+  font-family: input-sans, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-size: 12.5px;
+
+  position: fixed;
+  top: 100px;
+
+    color: black;
+
+  margin-left: 780px;
+  margin-right: 200px;
+  line-height: 20px;
   margin-top: 100px;
 
 }
