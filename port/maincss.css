@@ -1470,6 +1470,18 @@ top: 13%;
 }
 
 
+
+#vidbigweb {
+  height: 400px;
+  width: 650px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+
 #vidinsta {
   height: 660px;
   width: 400px;
@@ -1520,6 +1532,18 @@ top: 13%;
     position:fixed; top:0; left:0;
 }
 
+#tv {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  top: 15%;
+  left: 44%;
+  transform: rotate(30deg);
+
+}
+#tv:hover{
+  transform: scale(1);
+}
 
 
 #logo {
