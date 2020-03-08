@@ -58,16 +58,16 @@ position: fixed;
 top: 4.5%;
 left: 90%;
 
-  font-family: input-sans, sans-serif;
+font-family: titling-gothic-fb-extended, sans-serif;
 
 font-weight: 400;
 
 font-style: normal;
 
-  font-size: 14.5px;
+  font-size: 20px;
 text-decoration: none;
 
-color: black;
+color: white;
 
 }
 
@@ -87,21 +87,21 @@ color: black;
   top: 10%;
 }
 
-#title9 {
-  font-family: titling-gothic-fb-extended, sans-serif;
+title15 {
+  font-family: blenny, sans-serif;
+font-weight: 900;
+font-style: normal;
 
-  font-size: 48.5px;
+  font-size: 100px;
 
   text-decoration: none;
 
-font-weight: 700;
-
-font-style: normal;
 
 color: black;
 position: absolute;
 left: 25%;
 top: 20%;
+
 }
 
 
@@ -1133,9 +1133,10 @@ height: auto;
 }
 
 
+
 .v6{
   left:55%;
-  top: 100%;
+  top: 10%;
   height: 300px;
   width: 300px;
   position: absolute;
