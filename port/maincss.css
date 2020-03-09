@@ -164,7 +164,9 @@ line-height:20px;
 
 
 #ye1:hover {
-  border-bottom: 2px solid white;
+  border-top: 2px solid black;
+  padding-top: 0px;
+  length:1px;
 }
 
 header {
