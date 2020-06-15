@@ -1544,12 +1544,31 @@ top: 13%;
   margin-left: 100px;
   margin-top: 100px;
 }
+#vidbig2 {
+  height: 500px;
+  width: 650px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
 
 
 
 #vidbigweb {
   height: 400px;
   width: 650px;
+  line-height: 900px;
+  margin-right: 1200px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#gifweb {
+  height: 340px;
+  width: 640px;
   line-height: 900px;
   margin-right: 1200px;
   margin-left: 100px;
